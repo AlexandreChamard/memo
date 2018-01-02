@@ -37,7 +37,7 @@ SRC		=	src/main.cpp				\
 			src/objects/camera/camera.cpp		\
 			src/window/window.cpp			\
 
-OBJ			=	$(SRC:.cpp=.o)
+OBJ		=	$(SRC:.cpp=.o)
 
 all:		$(NAME)
 
